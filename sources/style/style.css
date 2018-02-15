@@ -1,0 +1,253 @@
+html
+{
+	padding:0px;
+	margin:0px;
+}
+
+body
+{
+	font-size:normal;
+	padding:0px;
+	font-family:"arial";
+}
+
+
+h1
+{
+	margin:0px;
+	padding:30px;
+	text-align:center;
+	background-color:black;
+	color:white;
+}
+
+.titre_clicable
+{
+	cursor:pointer;
+}
+
+.titre_clicable:hover
+{
+	color:red;
+}
+
+.zone_a_cacher
+{
+	display:none;
+}
+
+
+/* ======= ENTREE AJUSTEMENTS ======================================================= */
+#entree_ajustement
+{
+	text-align:center;
+	width:800px;
+	border-radius:20px;
+	padding:50px;
+	padding-top:20px;
+	background-color:white;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:10px;
+	-webkit-filter: drop-shadow(3px 3px 3px #333);
+	filter: dropshadow(3px 3px 3px #333);
+}
+
+#entree_ajustement form
+{
+	display:inline-block;
+	border-radius:5px;
+}
+
+#entree_ajustement input, #form_nominal_bornes_manuelles
+{
+	width:40px;
+	border:none;
+	background-color:none;
+	font-size:18px;
+}
+
+
+#bouton_GO
+{
+	width:50px;
+	height:40px;
+	padding-top:10px;
+	margin:0px;
+	margin-left:50px;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	border-radius:5px;
+	background-color:#00FF00;
+	cursor:pointer;
+	-webkit-filter: drop-shadow(3px 3px 3px #333);
+	filter: dropshadow(3px 3px 3px #333);
+	
+}
+
+#bouton_GO:hover
+{
+	margin-top:2px;
+	margin-left:52px;
+	margin-right:-2px;
+	margin-bottom:-2px;
+	-webkit-filter: drop-shadow(1px 1px 2px #111);
+	filter: dropshadow(1px 1px 2px #111);
+}
+
+
+/* ====== TABLEAU RESULTATS =============================================== */
+
+#resultat
+{
+	display:none;
+	width:800px;
+	padding:10px;
+	border-radius:20px;
+	margin:auto;
+	background-color:#AAFFAA;
+	text-align:center;
+	-webkit-filter: drop-shadow(3px 3px 3px #005500);
+	filter: drop-shadow(3px 3px 3px #005500);
+}
+
+#resultat table
+{
+	border-collapse:collapse;
+	margin:auto;
+}
+
+#resultat table td, #resultat table th
+{
+	text-align:center;
+	vertical-align:middle;
+	border:solid 1px black;
+	border-collapse:collapsed;
+	padding:5px;
+}
+
+#resultat table .titre_tab
+{
+	font-weight:bold;
+}
+
+#res_alesage_borne_inf,#res_alesage_borne_sup,#res_arbre_borne_inf,#res_arbre_borne_sup
+{
+	font-size:x-small;
+	color:gray;
+}
+
+#res_alesage_ES,#res_alesage_EI,#res_arbre_ES,#res_arbre_EI
+{
+	background-color:#AA99FF;
+}
+
+#res_alesage_nominal,#res_arbre_nominal
+{
+	font-weight:bold;
+	color:red;
+}
+
+td
+{
+	width:300px;
+}
+
+
+
+/* ====== BORNES MANUELLES ======================================================== */
+#bornes_manuelles
+{
+		width:900px;
+		/*border:solid;*/
+		margin:auto;
+		margin-top:10px;
+		margin-bottom:20px;
+		padding:20px;
+		text-align:center;
+		background-color:white;
+		border-radius:20px;
+	-webkit-filter: drop-shadow(3px 3px 3px #333);
+	filter: dropshadow(3px 3px 3px #333);
+		
+}
+#bornes_manuelles div
+{
+		padding:0px;
+		margin:0px;
+}
+#bornes_manuelles_alesage_gauche,#bornes_manuelles_alesage_droite,#bornes_manuelles_arbre_gauche,#bornes_manuelles_arbre_droite
+{
+	display:inline-block;
+	width:400px;
+/*	border:solid;*/
+	margin:0px;
+	padding:0px;
+}
+
+
+#bornes_manuelles .ui-slider .ui-slider-handle
+{
+	width:10px;
+	margin-left:-5px;
+}
+
+#bornes_manuelles .ui-slider-range 
+{
+	background-image:none;
+	background-color:blue;
+}
+
+#bornes_manuelles_exageration_curseur
+{
+	display:inline-block;
+	width:600px;
+}
+
+
+#bornes_manuelles_nominal_fleche_gauche
+{
+	display:inline-block;
+	width:150px;
+	overflow:hidden;
+	text-overflow:clip;
+	white-space: nowrap;
+}
+
+#bornes_manuelles_nominal_centre
+{
+	display:inline-block;
+	width:100px;
+	text-align:center;
+	overflow:hidden;
+}
+#bornes_manuelles_nominal_centre input
+{
+	width:50px;
+}
+
+#bornes_manuelles_nominal_fleche_droite
+{
+	display:inline-block;
+	width:150px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:right;
+	white-space: nowrap;
+	overflow:hidden;
+}
+
+#bornes_manuelles_ecarts_alesage, #bornes_manuelles_ecarts_arbre
+{
+	display:inline-block;
+	width:200px;
+	margin:auto;
+	text-align:right;
+}
+
+#bornes_manuelles_ecarts_alesage_inf, #bornes_manuelles_ecarts_alesage_sup,#bornes_manuelles_ecarts_arbre_inf, #bornes_manuelles_ecarts_arbre_sup
+{
+	font-size:x-small;
+	text-align:left;
+}
