@@ -14,10 +14,11 @@ $lettres=array("a","b","c","cd","d","e","ef","f","fg","g","h","js","j","k","m","
 		<!-- JQUERY -->
 		<link rel="stylesheet" href="https://libs.allais.eu/jquery/jquery-ui/jquery-ui.css">
 		<script type="text/javascript" src="https://libs.allais.eu/jquery/jquery-ui/external/jquery/jquery.js"></script>
+		<script type="text/javascript" src="https://libs.allais.eu/jquery/jquery-ui/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="https://libs.allais.eu/createJS/EaselJS-0.8.2/lib/easeljs-0.8.2.min.js"></script>
 
 		<!-- CREATE JS -->
-		<script type="text/javascript" src="https://libs.allais.eu/easelJS/EaselJS-0.8.2/lib/easeljs-0.8.2.min.js"></script>
+		<script type="text/javascript" src="https://libs.allais.eu/createJS/EaselJS-0.8.2/lib/easeljs-0.8.2.min.js"></script>
 		
 		<!--<script type="text/javascript" src="./sources/JS/main.js"></script>-->
 
